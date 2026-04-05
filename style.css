@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(180deg,#c8005c,#ff007f);
+}
+
+/* CARD */
+.container{
+    width:300px;
+    background:#fff;
+    padding:30px 25px;
+    border-radius:8px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+/* TITLE */
+.container h2{
+    text-align:left;
+    margin-bottom:20px;
+    position:relative;
+}
+
+.container h2::after{
+    content:"";
+    width:40px;
+    height:3px;
+    background:#ff007f;
+    position:absolute;
+    left:0;
+    bottom:-5px;
+}
+
+/* INPUT */
+.input-box{
+    position:relative;
+    margin:25px 0;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #ff007f;
+    outline:none;
+    padding:8px 0;
+    font-size:14px;
+}
+
+.input-box label{
+    position:absolute;
+    left:0;
+    top:-18px;
+    font-size:13px;
+    color:#555;
+}
+
+/* BUTTON */
+.btn{
+    width:100%;
+    padding:10px;
+    border:none;
+    background: linear-gradient(90deg,#c8005c,#ff007f);
+    color:#fff;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+/* OR */
+.or{
+    margin:15px 0;
+    font-size:12px;
+    color:#777;
+}
+
+/* SOCIAL */
+.social{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+/* TWITTER */
+.twitter{
+    background:#1da1f2;
+}
+
+/* FACEBOOK */
+.facebook{
+    background:#3b5998;
+}
